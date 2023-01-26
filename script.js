@@ -24,10 +24,3 @@ function findweatherdetails() {
 
     .catch(error => console.log('No Connection'))
 }
-
-
-// api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=714adc18a7298f3b76f4657eb36bc0da
-
-//http://api.openweathermap.org/data/2.5/forecast?q=${textfield.value}&appid=714adc18a7298f3b76f4657eb36bc0da
-
-//api.openweathermap.org/data/2.5/weather?q=${textfield.value}&APPID=714adc18a7298f3b76f4657eb36bc0da
