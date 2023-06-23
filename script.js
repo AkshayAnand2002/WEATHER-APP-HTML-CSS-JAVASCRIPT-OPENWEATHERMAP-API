@@ -8,7 +8,7 @@ submitbtn.addEventListener('click', findweatherdetails)
 
 
 function findweatherdetails() {
-    let url = `http://api.openweathermap.org/data/2.5/forecast?q=${textfield.value}&appid=714adc18a7298f3b76f4657eb36bc0da`
+    let url = `https://api.openweathermap.org/data/2.5/forecast?q=${textfield.value}&appid=714adc18a7298f3b76f4657eb36bc0da`
     fetch(url).then(response => response.json())
         .then(data => {
             console.log(data)
